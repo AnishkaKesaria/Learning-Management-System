@@ -33,7 +33,7 @@ router
     )
 
 router
-    .router('/')
+    .route('/')
     .get(
         isLoggedIn,
         authorizedRoles('ADMIN'),
